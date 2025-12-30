@@ -4,7 +4,7 @@ This repository contains step-by-step instructions for installing Burp Suite Com
 
 ## Prerequisites
 
-- Linux system (Ubuntu/Debian based)
+- Linux system (Ubuntu/Debian-based)
 - Internet connection
 - sudo privileges
 
@@ -39,7 +39,7 @@ sudo ./burpsuite_community.sh -c
 Check if Burp Suite is installed successfully:
 
 ```bash
-ls -la /usr/local/BurpSuiteCommunity/
+ls -la /opt/BurpSuiteCommunity/
 ```
 
 The installation directory should contain:
@@ -53,13 +53,13 @@ The installation directory should contain:
 To launch Burp Suite Community Edition:
 
 ```bash
-/usr/local/BurpSuiteCommunity/BurpSuiteCommunity
+/opt/BurpSuiteCommunity/BurpSuiteCommunity
 ```
 
 Or create a symbolic link for easier access:
 
 ```bash
-sudo ln -s /usr/local/BurpSuiteCommunity/BurpSuiteCommunity /usr/local/bin/burpsuite
+sudo ln -s /opt/BurpSuiteCommunity/BurpSuiteCommunity /usr/local/bin/burpsuite
 ```
 
 Then run:
@@ -83,7 +83,7 @@ burpsuite
 To uninstall Burp Suite:
 
 ```bash
-sudo /usr/local/BurpSuiteCommunity/uninstall
+sudo /opt/BurpSuiteCommunity/uninstall
 ```
 
 ## System Requirements
@@ -94,7 +94,7 @@ sudo /usr/local/BurpSuiteCommunity/uninstall
 
 ## About Burp Suite
 
-Burp Suite is a leading toolkit for web application security testing. The Community Edition is free and includes essential tools for manual security testing.
+Burp Suite is a leading toolkit for web application security pentests. The Community Edition is free and includes essential tools for manual security testing.
 
 ## License
 
